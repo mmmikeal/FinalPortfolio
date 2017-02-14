@@ -1,0 +1,58 @@
+.Heeder{
+  background-image: url(../images/napaliWall.jpg);
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding-top:10%;
+    color:white;
+    /*margin:0;
+    padding:0px;*/
+
+}
+
+.iconz{
+height:50px;
+}
+
+p{
+  text-indent: 1em;
+  font-size:20px;
+  padding-left:10px;
+  color:white;
+  background-color: black;
+}
+
+.about{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.aboutHeight{
+
+}
+
+body{
+  border:1px solid black !important;
+
+}
+
+.container{
+  background-color: #4C586F;
+}
+
+.img{
+  border-radius: 25px;
+}
+
+h3{
+  color:black;
+}
+
+.aboutHeader{
+  color:black;
+}
+
+
+
