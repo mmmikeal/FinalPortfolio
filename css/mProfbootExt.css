@@ -1,5 +1,5 @@
 .Heeder{
-  background-image: url(../images/napaliWall.jpg);
+  background-image: url(../images/images-large.jpg);
    -webkit-background-size: 100% auto;
    -moz-background-size: 100% auto;
    -o-background-size: 100% auto;
@@ -8,13 +8,40 @@
     background-repeat: no-repeat;
     padding-top:10%;
     color:white;
-    /*margin:0;
-    padding:0px;*/
-
 }
 
+@media (max-width: 769px){
+.Heeder{
+  background-image: url(../images/images-small.jpg);
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding-top:10%;
+    color:white;
+}
+}
+@media (max-width: 993px){
+.Heeder{
+  background-image: url(../images/images-medium.jpg);
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding-top:10%;
+    color:white;
+}
+}
+
+
+
+
 .iconz{
-height:50px;
+height:30px;
 }
 
 p{
@@ -22,7 +49,10 @@ p{
   font-size:20px;
   padding-left:10px;
   color:white;
-  background-color: black;
+  background-color: #333333;
+  border:2px solid black;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 
 .about{
@@ -34,12 +64,13 @@ p{
 }
 
 body{
-  border:1px solid black !important;
+  border:2px solid !important;
+  border-color:black;
 
 }
 
 .container{
-  background-color: #4C586F;
+  background-color: gray;
 }
 
 .img{
@@ -53,6 +84,26 @@ h3{
 .aboutHeader{
   color:black;
 }
+
+.aboutpic{
+  border:2px solid black;
+}
+
+a:hover{
+  fill:white;
+  background:white;
+  color:white;
+}
+
+hr{
+  border-color: #333333;
+}
+
+/* Things to go back and do
+1.) LinkedIn,Git,Gmail - make into buttons with shadowing
+2.) Add Jquery to change Linkedin,Git,Gmail SVG colors when hovering
+3.) Some kind of shadowing for About Me boxes and picture
+*/
 
 
 
