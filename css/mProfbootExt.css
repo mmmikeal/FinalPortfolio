@@ -1,4 +1,34 @@
-.Heeder{
+
+@media (min-width:200px){
+.heeder{
+  background-image: url(../images/images-small.jpg);
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding-top:10
+    color:white;
+}
+}
+
+@media (min-width: 400px){
+.heeder{
+  background-image: url(../images/images-medium.jpg);
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+    /*height: 300px;*/
+    background-repeat: no-repeat;
+    padding-top:10%;
+    color:white;
+}
+}
+
+@media (min-width: 1200px){
+.heeder{
   background-image: url(../images/images-large.jpg);
    -webkit-background-size: 100% auto;
    -moz-background-size: 100% auto;
@@ -9,36 +39,7 @@
     padding-top:10%;
     color:white;
 }
-
-@media (max-width: 769px){
-.Heeder{
-  background-image: url(../images/images-small.jpg);
-   -webkit-background-size: 100% auto;
-   -moz-background-size: 100% auto;
-   -o-background-size: 100% auto;
-    background-size: 100% auto;
-    height: 300px;
-    background-repeat: no-repeat;
-    padding-top:10%;
-    color:white;
 }
-}
-@media (max-width: 993px){
-.Heeder{
-  background-image: url(../images/images-medium.jpg);
-   -webkit-background-size: 100% auto;
-   -moz-background-size: 100% auto;
-   -o-background-size: 100% auto;
-    background-size: 100% auto;
-    height: 300px;
-    background-repeat: no-repeat;
-    padding-top:10%;
-    color:white;
-}
-}
-
-
-
 
 .iconz{
 height:30px;
@@ -59,14 +60,8 @@ p{
   font-family: 'Nunito Sans', sans-serif;
 }
 
-.aboutHeight{
-
-}
-
 body{
-  border:2px solid !important;
-  border-color:black;
-
+  border:2px solid black !important;
 }
 
 .container{
@@ -81,7 +76,7 @@ h3{
   color:black;
 }
 
-.aboutHeader{
+.aboutheader{
   color:black;
 }
 
@@ -99,10 +94,15 @@ hr{
   border-color: #333333;
 }
 
+h1{
+  color:white;
+}
 /* Things to go back and do
 1.) LinkedIn,Git,Gmail - make into buttons with shadowing
 2.) Add Jquery to change Linkedin,Git,Gmail SVG colors when hovering
 3.) Some kind of shadowing for About Me boxes and picture
+4.) set current page to homepage on navbar
+5.) add a portfolio tab that will hold a 4 x "x" thumbnail display of my projects
 */
 
 
