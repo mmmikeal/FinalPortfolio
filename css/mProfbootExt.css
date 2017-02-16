@@ -1,50 +1,45 @@
-
 @media (min-width:200px){
-.heeder{
-  background-image: url(../images/images-small.jpg);
-   -webkit-background-size: 100% auto;
-   -moz-background-size: 100% auto;
-   -o-background-size: 100% auto;
+  .heeder{
+    background-image: url(../images/images-small.jpg);
+    /*-webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;*/
     background-size: 100% auto;
     height: 300px;
     background-repeat: no-repeat;
-    padding-top:10
+    padding-top:10%;
     color:white;
+  }
 }
-}
-
 @media (min-width: 400px){
-.heeder{
-  background-image: url(../images/images-medium.jpg);
-   -webkit-background-size: 100% auto;
-   -moz-background-size: 100% auto;
-   -o-background-size: 100% auto;
+  .heeder{
+    background-image: url(../images/images-medium.jpg);
+    /*-webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;*/
     background-size: 100% auto;
     /*height: 300px;*/
     background-repeat: no-repeat;
     padding-top:10%;
     color:white;
+  }
 }
-}
-
 @media (min-width: 1200px){
-.heeder{
-  background-image: url(../images/images-large.jpg);
-   -webkit-background-size: 100% auto;
+  .heeder{
+    background-image: url(../images/images-large.jpg);
+   /*-webkit-background-size: 100% auto;
    -moz-background-size: 100% auto;
-   -o-background-size: 100% auto;
+   -o-background-size: 100% auto;*/
     background-size: 100% auto;
     height: 300px;
     background-repeat: no-repeat;
     padding-top:10%;
     color:white;
+  }
 }
-}
-
 .iconz{
-height:30px;
+  height:30px;
 }
-
 p{
   text-indent: 1em;
   font-size:20px;
@@ -55,11 +50,9 @@ p{
   padding-top:10px;
   padding-bottom:10px;
 }
-
 .about{
   font-family: 'Nunito Sans', sans-serif;
 }
-
 body{
   border:2px solid black !important;
 }
@@ -67,33 +60,26 @@ body{
 .container{
   background-color: gray;
 }
-
 .img{
   border-radius: 25px;
 }
-
 h3{
   color:black;
 }
-
 .aboutheader{
   color:black;
 }
-
 .aboutpic{
   border:2px solid black;
 }
-
 a:hover{
-  fill:white;
+  /*fill:white;*/
   background:white;
   color:white;
 }
-
 hr{
   border-color: #333333;
 }
-
 h1{
   color:white;
 }
